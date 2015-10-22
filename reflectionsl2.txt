@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git init creates a git repository in the current directory, but it is an empty repository. If you "git log" it, it will give you an error. To check its current status you should use "git status".
+
+I need to initialyse a directory because without doing it git doesnt know that it should keep track of changes there and creates its auxiliary files on hidden directory .git
+
