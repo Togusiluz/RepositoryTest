@@ -4,3 +4,8 @@ Git init creates a git repository in the current directory, but it is an empty r
 
 I need to initialyse a directory because without doing it git doesnt know that it should keep track of changes there and creates its auxiliary files on hidden directory .git
 
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area defines what will be moved to the repository in the next commit. It makes us able to organize and define commits much more flexible.
